@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<selection>
+	<article>
+		<video eidth="400" height="250">
+			<source src="public/video/tobacco.mp4" type"video/mp4">
+			</video>
+
+	</article>
+</selection>
+<section>
+<article>
+<iframe <iframe width="560" height="315" src="https://www.youtube.com/embed/0S6tFsHuw-U" frameborder="0" allowfullscreen></iframe>
+</article>
+
+</section>
+

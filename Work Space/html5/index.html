@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+ 
+ <audio controls="controls">
+ 	<source src="public/sounds/useryeah.mp3"
+ 	type="audio/mp3">
+ </audio>
+
+<style>
+#head{
+	background-color: purple;
+	color:white;
+}
+	nav{
+		background-color:cyan;
+		color:white;
+	}
+
+	nav>a{
+		text-decoration: none;
+		color:red;
+	}
+
+</style>
+
+ <header>
+ 	<h1>Negro</h1>
+ 	<nav>
+		<a href="index.html">Home</a>
+		<a href="dashborad.html">Dashboard</a>
+		<a href="users.html">User</a>
+		<a href="reportes.html">Reportes</a>
+	</nav>
+
+<section>
+	<article>
+	<h2>Pagina 1</h2>
+	<p>Lorem</p>
+	</article>
+	<aside>
+	<h3>Aside de mi pagina</h3>
+	<p>Lorem otraves</p>
+	</aside>
+	<article>
+	<h2>Pagina 2</h2>
+	<p>Lorem</p>
+	</article>
+</section>
+<section>
+	<canvas id="myCanvas" width="500" height="400" style="border:dotted; border-color:red; border width: 4px;">
+
+	</canvas>
+	<!--script>
+	var canvas = document.getElementById("myCanvas");
+	var ctx = canvas.getContext("2d");
+	ctx.fillRect(5,5,80,80)
+	</script->
+
+	<script>
+	var c = document.getElementByiD("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.moveTo(0,0);
+	ctx.lineTo(200,100);
+	ctx.stroke();
+	</script>
+
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx. arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    </script-->
+
+    <!--script>
+     var c = document.getElementById("myCanvas");
+     var ctx = c.getContext("2d");
+     ctx.font= "30px Arial";
+     ctx.strokeText("Hello World",10,50);
+     </script-->
+
+     <!--script>
+     var canvas = document.getElementById("myCanvas");
+     var ctx = canvas.getContext("2d");
+     var grd = ctx.createLinearGradient(0,0,200,0);
+     grd.addColorStop(0,"blue");
+     grd.addColorStop(1,"green");
+     ctx.fillStyle = grd;
+     ctx.fillRect(10,10,150,80);
+     </script-->
+     
+</section>
+<article>
+<h3>Tengo dos piezas de 10</h3>
+<meter value="2" min="0" mas="10">2 piezas de 10</meter>
+<br>
+<h3> este es el 60 porciento de la calificaion</h3>		
+<meter value="0.6">60%</meter>
+</article>
+ </header>
+
+</body>
+</html>
